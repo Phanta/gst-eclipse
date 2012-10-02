@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="MainWindow" size="2579,2146" id="gst.ui" metadata="uml2-1.0" initialized="true" zoom="0.75" scrolledY="492" tag="10" key="32303037303533312D313020475354">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.0" name="Toolbar" location="2232,1479" size="109,67" id="gst.ui/Toolbar" runTimeClassModel="getInstance()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="86,18">
+      <children xsi:type="editmodel:MethodEditModel" name="getInstance" id="gst.ui/Toolbar#getInstance()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.2" name="Menus" location="1934,1771" size="109,67" id="gst.ui/Menus" runTimeClassModel="getInstance()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="86,18">
+      <children xsi:type="editmodel:MethodEditModel" name="getInstance" id="gst.ui/Menus#getInstance()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.13/@sourceConnections.0" name="SignalView" location="2148,989" size="161,157" id="gst.ui/SignalView" runTimeClassModel="SignalView(Ljava.lang.String;Ljava.lang.String;),SignalView(Lorg.jfree.chart.JFreeChart;Z),setYAxisLabel(ILjava.lang.String;),setYAxisLabel(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="138,108">
+      <children xsi:type="editmodel:MethodEditModel" name="SignalView" id="gst.ui/SignalView#SignalView(Lorg.jfree.chart.JFreeChart;Z)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setYAxisLabel" id="gst.ui/SignalView#setYAxisLabel(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setYAxisLabel" id="gst.ui/SignalView#setYAxisLabel(ILjava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="SignalView" id="gst.ui/SignalView#SignalView(Ljava.lang.String;Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.13/@sourceConnections.3" name="ComponentArrangement" location="1670,50" size="198,279" id="gst.ui.layout/ComponentArrangement" runTimeClassModel="iNDEX1_TWOMEDIUM,tWOMEDIUM,setPreferredSizes(Ljava.util.Collection;II),iNDEX_MAX,iNDEX_ONEBIG,oNEBIG,pattern,ComponentArrangement(),iNDEX2_TWOMEDIUM,select(II),eVENHEIGHTS,setPattern(I)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="139,144">
+      <children xsi:type="editmodel:AttributeEditModel" name="eVENHEIGHTS" id="gst.ui.layout/ComponentArrangement#eVENHEIGHTS"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="iNDEX1_TWOMEDIUM" id="gst.ui.layout/ComponentArrangement#iNDEX1_TWOMEDIUM"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="iNDEX2_TWOMEDIUM" id="gst.ui.layout/ComponentArrangement#iNDEX2_TWOMEDIUM"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="iNDEX_MAX" id="gst.ui.layout/ComponentArrangement#iNDEX_MAX"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="iNDEX_ONEBIG" id="gst.ui.layout/ComponentArrangement#iNDEX_ONEBIG"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="oNEBIG" id="gst.ui.layout/ComponentArrangement#oNEBIG"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="pattern" id="gst.ui.layout/ComponentArrangement#pattern"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="tWOMEDIUM" id="gst.ui.layout/ComponentArrangement#tWOMEDIUM"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="147,72">
+      <children xsi:type="editmodel:MethodEditModel" name="ComponentArrangement" id="gst.ui.layout/ComponentArrangement#ComponentArrangement()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="select" id="gst.ui.layout/ComponentArrangement#select(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setPattern" id="gst.ui.layout/ComponentArrangement#setPattern(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setPreferredSizes" id="gst.ui.layout/ComponentArrangement#setPreferredSizes(Ljava.util.Collection;II)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="MainWindow" location="1670,1229" size="125,85" id="gst.ui/MainWindow" runTimeClassModel="MainWindow()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="92,36">
+      <children xsi:type="editmodel:MethodEditModel" name="MainWindow" id="gst.ui/MainWindow#MainWindow()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="gst.ui/MainWindow-Standard::Call->gst.ui/Toolbar" source="//@children.4" target="//@children.0" targetEnd="//@children.4/@sourceConnections.0/@children.2" label="//@children.4/@sourceConnections.0/@children.0" sourceEnd="//@children.4/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="29,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="125,69" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,10"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="gst.ui/MainWindow-Standard::Call->gst.ui/SignalPanel" source="//@children.4" target="//@children.13" targetEnd="//@children.4/@sourceConnections.1/@children.2" label="//@children.4/@sourceConnections.1/@children.0" sourceEnd="//@children.4/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="29,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="92,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="31,121"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="gst.ui/MainWindow-Standard::Call->gst.ui/Menus" source="//@children.4" target="//@children.1" targetEnd="//@children.4/@sourceConnections.2/@children.2" label="//@children.4/@sourceConnections.2/@children.0" sourceEnd="//@children.4/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="29,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="83,85" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="38,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="gst.ui/MainWindow-Standard::Call->gst.ui/StatusBar" source="//@children.4" target="//@children.10" targetEnd="//@children.4/@sourceConnections.3/@children.2" label="//@children.4/@sourceConnections.3/@children.0" sourceEnd="//@children.4/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="29,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="12,85" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="150,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="gst.ui/MainWindow-Standard::Call->gst.ui/Sidebar" source="//@children.4" target="//@children.8" targetEnd="//@children.4/@sourceConnections.4/@children.2" label="//@children.4/@sourceConnections.4/@children.0" sourceEnd="//@children.4/@sourceConnections.4/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="29,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="13,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="135,118"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="gst.ui/MainWindow-Standard::Call->gst/Settings$UI" source="//@children.4" target="//@children.9/@children.2/@children.0" targetEnd="//@children.4/@sourceConnections.5/@children.2" label="//@children.4/@sourceConnections.5/@children.0" sourceEnd="//@children.4/@sourceConnections.5/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="29,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="106,85" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,54"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="gst.ui/MainWindow->Standard::Call" source="//@children.4" target="//@children.9" targetEnd="//@children.4/@sourceConnections.6/@children.2" label="//@children.4/@sourceConnections.6/@children.0" sourceEnd="//@children.4/@sourceConnections.6/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Access, Import, Call»" size="108,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,42" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="202,256"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.13/@sourceConnections.4" name="SignalPanelComponentAdapter" location="2067,166" size="243,81" id="gst.ui/SignalPanel$SignalPanelComponentAdapter" runTimeClassModel="componentResized(Ljava.awt.event.ComponentEvent;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="122,18">
+      <children xsi:type="editmodel:MethodEditModel" name="componentResized" id="gst.ui/SignalPanel$SignalPanelComponentAdapter#componentResized(Ljava.awt.event.ComponentEvent;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.13/@sourceConnections.5" name="SignalPanelLayoutManager" location="2340,506" size="219,153" id="gst.ui.layout/SignalPanelLayoutManager" runTimeClassModel="removeLayoutComponent(Ljava.awt.Component;),minimumLayoutSize(Ljava.awt.Container;),layoutContainer(Ljava.awt.Container;),addLayoutComponent(Ljava.lang.String;Ljava.awt.Component;),preferredLayoutSize(Ljava.awt.Container;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="153,90">
+      <children xsi:type="editmodel:MethodEditModel" name="addLayoutComponent" id="gst.ui.layout/SignalPanelLayoutManager#addLayoutComponent(Ljava.lang.String;Ljava.awt.Component;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="layoutContainer" id="gst.ui.layout/SignalPanelLayoutManager#layoutContainer(Ljava.awt.Container;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="minimumLayoutSize" id="gst.ui.layout/SignalPanelLayoutManager#minimumLayoutSize(Ljava.awt.Container;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="preferredLayoutSize" id="gst.ui.layout/SignalPanelLayoutManager#preferredLayoutSize(Ljava.awt.Container;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removeLayoutComponent" id="gst.ui.layout/SignalPanelLayoutManager#removeLayoutComponent(Ljava.awt.Component;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.11/@sourceConnections.1" name="MultiSplitEntry" location="50,1037" size="176,297" id="gst.ui.layout/MultiSplit$MultiSplitEntry" runTimeClassModel="setPredecessor(Lgst.ui.layout.MultiSplit.MultiSplitEntry;),successor,getComponent(),getDivider(),hasPredecessor(),divider,hasSuccessor(),MultiSplitEntry(Ljava.awt.Component;Lgst.ui.layout.MultiSplit.MultiSplitEntry;Lgst.ui.layout.MultiSplit.MultiSplitEntry;),MultiSplitEntry(Ljava.awt.Component;),predecessor,MultiSplitEntry(Ljava.awt.Component;Lgst.ui.layout.MultiSplit.MultiSplitEntry;),component,setSuccessor(Lgst.ui.layout.MultiSplit.MultiSplitEntry;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="153,72">
+      <children xsi:type="editmodel:AttributeEditModel" name="component" id="gst.ui.layout/MultiSplit$MultiSplitEntry#component"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="predecessor" id="gst.ui.layout/MultiSplit$MultiSplitEntry#predecessor"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="successor" id="gst.ui.layout/MultiSplit$MultiSplitEntry#successor"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="divider" id="gst.ui.layout/MultiSplit$MultiSplitEntry#divider"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="110,162">
+      <children xsi:type="editmodel:MethodEditModel" name="MultiSplitEntry" id="gst.ui.layout/MultiSplit$MultiSplitEntry#MultiSplitEntry(Ljava.awt.Component;Lgst.ui.layout.MultiSplit.MultiSplitEntry;Lgst.ui.layout.MultiSplit.MultiSplitEntry;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="MultiSplitEntry" id="gst.ui.layout/MultiSplit$MultiSplitEntry#MultiSplitEntry(Ljava.awt.Component;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="MultiSplitEntry" id="gst.ui.layout/MultiSplit$MultiSplitEntry#MultiSplitEntry(Ljava.awt.Component;Lgst.ui.layout.MultiSplit.MultiSplitEntry;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="hasPredecessor" id="gst.ui.layout/MultiSplit$MultiSplitEntry#hasPredecessor()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="hasSuccessor" id="gst.ui.layout/MultiSplit$MultiSplitEntry#hasSuccessor()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setSuccessor" id="gst.ui.layout/MultiSplit$MultiSplitEntry#setSuccessor(Lgst.ui.layout.MultiSplit.MultiSplitEntry;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getComponent" id="gst.ui.layout/MultiSplit$MultiSplitEntry#getComponent()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getDivider" id="gst.ui.layout/MultiSplit$MultiSplitEntry#getDivider()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setPredecessor" id="gst.ui.layout/MultiSplit$MultiSplitEntry#setPredecessor(Lgst.ui.layout.MultiSplit.MultiSplitEntry;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.13/@sourceConnections.2 //@children.4/@sourceConnections.4" name="Sidebar" location="1181,795" size="135,121" id="gst.ui/Sidebar" runTimeClassModel="getInstance(),addDbgButtonAL(Ljava.awt.event.ActionListener;),getAlignment(),addNotify()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="102,18"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="112,72">
+      <children xsi:type="editmodel:MethodEditModel" name="addDbgButtonAL" id="gst.ui/Sidebar#addDbgButtonAL(Ljava.awt.event.ActionListener;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAlignment" id="gst.ui/Sidebar#getAlignment()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getInstance" id="gst.ui/Sidebar#getInstance()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addNotify" id="gst.ui/Sidebar#addNotify()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="gst.ui/Sidebar-Standard::Call->gst/Settings$UI" source="//@children.8" target="//@children.9/@children.2/@children.0" targetEnd="//@children.8/@sourceConnections.0/@children.2" label="//@children.8/@sourceConnections.0/@children.0" sourceEnd="//@children.8/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="29,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="130,121" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,54"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="gst.ui/Sidebar->Standard::Call" source="//@children.8" target="//@children.9" targetEnd="//@children.8/@sourceConnections.1/@children.2" label="//@children.8/@sourceConnections.1/@children.0" sourceEnd="//@children.8/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Access, Call»" size="73,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="84,121" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="49,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="gst.ui/Sidebar->Soyatec::Import" source="//@children.8" target="//@children.11" targetEnd="//@children.8/@sourceConnections.2/@children.2" label="//@children.8/@sourceConnections.2/@children.0" sourceEnd="//@children.8/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate, Import, Call»" size="119,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,52" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="102,81"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="gst.ui/Sidebar-Standard::Call->gst.ui/SignalOverview" source="//@children.8" target="//@children.12" targetEnd="//@children.8/@sourceConnections.3/@children.2" label="//@children.8/@sourceConnections.3/@children.0" sourceEnd="//@children.8/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="29,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="15,121" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="99,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.13/@sourceConnections.1 //@children.8/@sourceConnections.1 //@children.11/@sourceConnections.0 //@children.12/@sourceConnections.1 //@children.4/@sourceConnections.6" name="Settings" location="1216,1015" size="202,430" id="gst/Settings" runTimeClassModel="ui,gst.Settings.UI,getMaxSignals(),getInstance(),defaultValues()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="42,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="ui" id="gst/Settings#ui"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="100,54">
+      <children xsi:type="editmodel:MethodEditModel" name="defaultValues" id="gst/Settings#defaultValues()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getInstance" id="gst/Settings#getInstance()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getMaxSignals" id="gst/Settings#getMaxSignals()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="179,285">
+      <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.9/@sourceConnections.0 //@children.8/@sourceConnections.0 //@children.12/@sourceConnections.0 //@children.4/@sourceConnections.5" name="UI" location="8848,8365" size="179,283" id="gst/Settings$UI" runTimeClassModel="getSignalOverviewHeight(),getSignalOverviewWidth(),getMainWindowTitle(),getSidebarAlignment(),getMainWindowDimension(),signalOverviewWidth,getSidebarWidth(),UI(),sIDEBAR_RIGHT,sidebarAlignment,sIDEBAR_LEFT,signalOverviewHeight,sidebarWidth">
+        <children xsi:type="editmodel:CompartmentEditModel" size="146,108">
+          <children xsi:type="editmodel:AttributeEditModel" name="sIDEBAR_LEFT" id="gst/Settings$UI#sIDEBAR_LEFT"/>
+          <children xsi:type="editmodel:AttributeEditModel" name="sIDEBAR_RIGHT" id="gst/Settings$UI#sIDEBAR_RIGHT"/>
+          <children xsi:type="editmodel:AttributeEditModel" name="sidebarAlignment" id="gst/Settings$UI#sidebarAlignment"/>
+          <children xsi:type="editmodel:AttributeEditModel" name="sidebarWidth" id="gst/Settings$UI#sidebarWidth"/>
+          <children xsi:type="editmodel:AttributeEditModel" name="signalOverviewHeight" id="gst/Settings$UI#signalOverviewHeight"/>
+          <children xsi:type="editmodel:AttributeEditModel" name="signalOverviewWidth" id="gst/Settings$UI#signalOverviewWidth"/>
+        </children>
+        <children xsi:type="editmodel:CompartmentEditModel" size="156,126">
+          <children xsi:type="editmodel:MethodEditModel" name="UI" id="gst/Settings$UI#UI()"/>
+          <children xsi:type="editmodel:MethodEditModel" name="getMainWindowDimension" id="gst/Settings$UI#getMainWindowDimension()"/>
+          <children xsi:type="editmodel:MethodEditModel" name="getMainWindowTitle" id="gst/Settings$UI#getMainWindowTitle()"/>
+          <children xsi:type="editmodel:MethodEditModel" name="getSignalOverviewHeight" id="gst/Settings$UI#getSignalOverviewHeight()"/>
+          <children xsi:type="editmodel:MethodEditModel" name="getSidebarWidth" id="gst/Settings$UI#getSidebarWidth()"/>
+          <children xsi:type="editmodel:MethodEditModel" name="getSignalOverviewWidth" id="gst/Settings$UI#getSignalOverviewWidth()"/>
+          <children xsi:type="editmodel:MethodEditModel" name="getSidebarAlignment" id="gst/Settings$UI#getSidebarAlignment()"/>
+        </children>
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+      </children>
+    </children>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="gst/Settings->Standard::Call" source="//@children.9" target="//@children.9/@children.2/@children.0" targetEnd="//@children.9/@sourceConnections.0/@children.2" label="//@children.9/@sourceConnections.0/@children.0" sourceEnd="//@children.9/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate, Import, Call»" size="119,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="202,310" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,57"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.3" name="StatusBar" location="1532,1861" size="164,283" id="gst.ui/StatusBar" runTimeClassModel="getInstance(),preferredSize,registerMouseListener([Ljavax.swing.MenuElement;),mouseEntered(Ljava.awt.event.MouseEvent;),mouseClicked(Ljava.awt.event.MouseEvent;),mouseExited(Ljava.awt.event.MouseEvent;),registerMouseListener([Ljava.awt.Component;),setMessage(Ljava.lang.String;),getPreferredSize(),mousePressed(Ljava.awt.event.MouseEvent;),StatusBar(),setInstance(Lgst.ui.StatusBar;),mouseReleased(Ljava.awt.event.MouseEvent;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="141,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="preferredSize" id="gst.ui/StatusBar#preferredSize"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="138,216">
+      <children xsi:type="editmodel:MethodEditModel" name="StatusBar" id="gst.ui/StatusBar#StatusBar()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getInstance" id="gst.ui/StatusBar#getInstance()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="mouseClicked" id="gst.ui/StatusBar#mouseClicked(Ljava.awt.event.MouseEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="mouseEntered" id="gst.ui/StatusBar#mouseEntered(Ljava.awt.event.MouseEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="mouseExited" id="gst.ui/StatusBar#mouseExited(Ljava.awt.event.MouseEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="mousePressed" id="gst.ui/StatusBar#mousePressed(Ljava.awt.event.MouseEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="mouseReleased" id="gst.ui/StatusBar#mouseReleased(Ljava.awt.event.MouseEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="registerMouseListener" id="gst.ui/StatusBar#registerMouseListener([Ljavax.swing.MenuElement;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="registerMouseListener" id="gst.ui/StatusBar#registerMouseListener([Ljava.awt.Component;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setInstance" id="gst.ui/StatusBar#setInstance(Lgst.ui.StatusBar;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setMessage" id="gst.ui/StatusBar#setMessage(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPreferredSize" id="gst.ui/StatusBar#getPreferredSize()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.8/@sourceConnections.2" name="MultiSplit" location="600,766" size="102,135" id="gst.ui.layout/MultiSplit" runTimeClassModel="removeAll(),remove(I),remove(Ljava.awt.Component;),MultiSplit()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="78,72">
+      <children xsi:type="editmodel:MethodEditModel" name="MultiSplit" id="gst.ui.layout/MultiSplit#MultiSplit()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="remove" id="gst.ui.layout/MultiSplit#remove(Ljava.awt.Component;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="remove" id="gst.ui.layout/MultiSplit#remove(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removeAll" id="gst.ui.layout/MultiSplit#removeAll()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="gst.ui.layout/MultiSplit-Standard::Call->gst/Settings" source="//@children.11" target="//@children.9" targetEnd="//@children.11/@sourceConnections.0/@children.2" label="//@children.11/@sourceConnections.0/@children.0" sourceEnd="//@children.11/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="29,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="102,97" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,155"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="gst.ui.layout/MultiSplit->Standard::Call" source="//@children.11" target="//@children.7" targetEnd="//@children.11/@sourceConnections.1/@children.2" label="//@children.11/@sourceConnections.1/@children.0" sourceEnd="//@children.11/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate, Import, Call»" size="119,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,102" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="176,88"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="gst.ui.layout/MultiSplit-Standard::Instantiate->gst.ui.layout/MultiSplit$MultiSplitLayoutManager" source="//@children.11" target="//@children.14" targetEnd="//@children.11/@sourceConnections.2/@children.2" label="//@children.11/@sourceConnections.2/@children.0" sourceEnd="//@children.11/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate»" size="61,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,43" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="188,81"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.8/@sourceConnections.3" name="SignalOverview" location="786,1280" size="143,67" id="gst.ui/SignalOverview" runTimeClassModel="getInstance()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="86,18">
+      <children xsi:type="editmodel:MethodEditModel" name="getInstance" id="gst.ui/SignalOverview#getInstance()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="gst.ui/SignalOverview-Standard::Call->gst/Settings$UI" source="//@children.12" target="//@children.9/@children.2/@children.0" targetEnd="//@children.12/@sourceConnections.0/@children.2" label="//@children.12/@sourceConnections.0/@children.0" sourceEnd="//@children.12/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="29,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="110,67" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,62"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="gst.ui/SignalOverview->Standard::Call" source="//@children.12" target="//@children.9" targetEnd="//@children.12/@sourceConnections.1/@children.2" label="//@children.12/@sourceConnections.1/@children.0" sourceEnd="//@children.12/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Access, Call»" size="73,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="143,33" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,298"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.1" name="SignalPanel" location="1731,663" size="120,121" id="gst.ui/SignalPanel" runTimeClassModel="getInstance(),removeSignal(Lgst.ui.SignalView;),addSignal(Lgst.ui.SignalView;),addSignal(Lgst.ui.SignalView;Z)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="95,72">
+      <children xsi:type="editmodel:MethodEditModel" name="addSignal" id="gst.ui/SignalPanel#addSignal(Lgst.ui.SignalView;Z)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addSignal" id="gst.ui/SignalPanel#addSignal(Lgst.ui.SignalView;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getInstance" id="gst.ui/SignalPanel#getInstance()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removeSignal" id="gst.ui/SignalPanel#removeSignal(Lgst.ui.SignalView;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="gst.ui/SignalPanel->Standard::Call" source="//@children.13" target="//@children.2" targetEnd="//@children.13/@sourceConnections.0/@children.2" label="//@children.13/@sourceConnections.0/@children.0" sourceEnd="//@children.13/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="120,107" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,15"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="gst.ui/SignalPanel-Standard::Call->gst/Settings" source="//@children.13" target="//@children.9" targetEnd="//@children.13/@sourceConnections.1/@children.2" label="//@children.13/@sourceConnections.1/@children.0" sourceEnd="//@children.13/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="29,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="3,121" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="202,107"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="gst.ui/SignalPanel-Standard::Call->gst.ui/Sidebar" source="//@children.13" target="//@children.8" targetEnd="//@children.13/@sourceConnections.2/@children.2" label="//@children.13/@sourceConnections.2/@children.0" sourceEnd="//@children.13/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="29,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,75" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="135,43"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="gst.ui/SignalPanel->Soyatec::Import" source="//@children.13" target="//@children.3" targetEnd="//@children.13/@sourceConnections.3/@children.2" label="//@children.13/@sourceConnections.3/@children.0" sourceEnd="//@children.13/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate, Import, Call»" size="119,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="59,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="120,279"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="gst.ui/SignalPanel-Standard::Instantiate->gst.ui/SignalPanel$SignalPanelComponentAdapter" source="//@children.13" target="//@children.5" targetEnd="//@children.13/@sourceConnections.4/@children.2" label="//@children.13/@sourceConnections.4/@children.0" sourceEnd="//@children.13/@sourceConnections.4/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate»" size="61,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="106,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="90,81"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="gst.ui/SignalPanel-Standard::Instantiate->gst.ui.layout/SignalPanelLayoutManager" source="//@children.13" target="//@children.6" targetEnd="//@children.13/@sourceConnections.5/@children.2" label="//@children.13/@sourceConnections.5/@children.0" sourceEnd="//@children.13/@sourceConnections.5/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate»" size="61,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="120,47" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,99"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.11/@sourceConnections.2" name="MultiSplitLayoutManager" location="188,624" size="201,81" id="gst.ui.layout/MultiSplit$MultiSplitLayoutManager" runTimeClassModel="layoutContainer(Ljava.awt.Container;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="105,18">
+      <children xsi:type="editmodel:MethodEditModel" name="layoutContainer" id="gst.ui.layout/MultiSplit$MultiSplitLayoutManager#layoutContainer(Ljava.awt.Container;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="gst.ui.layout/VerticalLayoutManager&lt;-gst.ui.layout/MultiSplit$MultiSplitLayoutManager" source="//@children.14" target="//@children.15" targetEnd="//@children.14/@sourceConnections.0/@children.1" sourceEnd="//@children.14/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="100,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="94,243"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.14/@sourceConnections.0" name="VerticalLayoutManager" location="194,331" size="189,243" id="gst.ui.layout/VerticalLayoutManager" runTimeClassModel="getLayoutAlignmentX(Ljava.awt.Container;),removeLayoutComponent(Ljava.awt.Component;),minimumLayoutSize(Ljava.awt.Container;),layoutContainer(Ljava.awt.Container;),addLayoutComponent(Ljava.awt.Component;Ljava.lang.Object;),maximumLayoutSize(Ljava.awt.Container;),getLayoutAlignmentY(Ljava.awt.Container;),invalidateLayout(Ljava.awt.Container;),addLayoutComponent(Ljava.lang.String;Ljava.awt.Component;),preferredLayoutSize(Ljava.awt.Container;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="153,180">
+      <children xsi:type="editmodel:MethodEditModel" name="addLayoutComponent" id="gst.ui.layout/VerticalLayoutManager#addLayoutComponent(Ljava.awt.Component;Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addLayoutComponent" id="gst.ui.layout/VerticalLayoutManager#addLayoutComponent(Ljava.lang.String;Ljava.awt.Component;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getLayoutAlignmentX" id="gst.ui.layout/VerticalLayoutManager#getLayoutAlignmentX(Ljava.awt.Container;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getLayoutAlignmentY" id="gst.ui.layout/VerticalLayoutManager#getLayoutAlignmentY(Ljava.awt.Container;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="invalidateLayout" id="gst.ui.layout/VerticalLayoutManager#invalidateLayout(Ljava.awt.Container;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="layoutContainer" id="gst.ui.layout/VerticalLayoutManager#layoutContainer(Ljava.awt.Container;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="maximumLayoutSize" id="gst.ui.layout/VerticalLayoutManager#maximumLayoutSize(Ljava.awt.Container;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="minimumLayoutSize" id="gst.ui.layout/VerticalLayoutManager#minimumLayoutSize(Ljava.awt.Container;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="preferredLayoutSize" id="gst.ui.layout/VerticalLayoutManager#preferredLayoutSize(Ljava.awt.Container;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removeLayoutComponent" id="gst.ui.layout/VerticalLayoutManager#removeLayoutComponent(Ljava.awt.Component;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" interactive="false" level="20" properties="open=gst.ui/MainWindow;wireOptions=7;Product=eUML2"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>
