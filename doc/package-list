@@ -1,5 +1,7 @@
 gst
 gst.data
+gst.signalprocessing
+gst.signalprocessing.rrcalc
 gst.test
 gst.ui
 gst.ui.dialog
